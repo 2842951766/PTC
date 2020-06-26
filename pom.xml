@@ -202,17 +202,25 @@
 	            <artifactId>ruoyi-common</artifactId>
 	            <version>${ruoyi.version}</version>
 	        </dependency>
+
+			<!--算法模块-->
+			<dependency>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>matlab</artifactId>
+				<version>${ruoyi.version}</version>
+			</dependency>
 	        
         </dependencies>
     </dependencyManagement>
 
     <modules>
-	    <module>ruoyi-admin</module>
+		<module>ruoyi-admin</module>
 		<module>ruoyi-framework</module>
 		<module>ruoyi-system</module>
 		<module>ruoyi-quartz</module>
 		<module>ruoyi-generator</module>
-        <module>ruoyi-common</module>
+		<module>ruoyi-common</module>
+		<module>matlab</module>
     </modules>
     <packaging>pom</packaging>
 
